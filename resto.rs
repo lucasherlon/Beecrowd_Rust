@@ -8,12 +8,12 @@ fn main(){
     stdin().read_line(&mut num1).expect("Erro de input");
     stdin().read_line(&mut num2).expect("Erro de input");
 
-    let num1 :i32 = match num1.trim().parse() {
+    let num1: i32 = match num1.trim().parse() {
         Ok(num) => num,
         Err(_) => 0
     };
     
-    let num2 :i32 = match num2.trim().parse() {
+    let num2: i32 = match num2.trim().parse() {
         Ok(num) => num,
         Err(_) => 0
     };
