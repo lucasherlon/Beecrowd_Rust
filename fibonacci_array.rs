@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    let mut array: [u64; 61] = [1;61];
+    let mut array: [u64; 60] = [1;60];
     array[0] = 0;
     array[1] = 1;
 
